@@ -33,7 +33,7 @@ It allows users to manage contacts with features like create, search, edit, dele
 - validations.c / validations.h
 - populate.c / populate.h
 - contacts.csv
-
+```
 ---
 
 ## Build Instructions
@@ -41,10 +41,13 @@ It allows users to manage contacts with features like create, search, edit, dele
 ```bash
 make
 ./addressbook
+```
 ### clean build files
+```bash
 make clean
+```
 ### Manual Compilation
 ```bash
 gcc main.c contact.c validations.c populate.c -o addressbook
 ./addressbook
-
+```
