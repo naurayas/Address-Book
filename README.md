@@ -28,8 +28,9 @@ It allows users to manage contacts with features like create, search, edit, dele
 gcc main.c contact.c validations.c populate.c -o addressbook
 ./addressbook
 
-# Build Instructions
-* Using makefile
+## Build Instructions
+### Using makefile
+```bash
 make
 ./addressbook
 
