@@ -28,11 +28,16 @@ It allows users to manage contacts with features like create, search, edit, dele
 
 ## Project Structure
 ```bash
-- main.c
-- contact.c / contact.h
-- validations.c / validations.h
-- populate.c / populate.h
-- contacts.csv
+.
+├── contact.c
+├── contact.h
+├── contacts.csv
+├── main.c
+├── makefile
+├── populate.c
+├── populate.h
+├── validations.c
+└── validations.h
 ```
 ---
 
@@ -42,7 +47,7 @@ It allows users to manage contacts with features like create, search, edit, dele
 make
 ./addressbook
 ```
-### clean build files
+### Clean build files
 ```bash
 make clean
 ```
