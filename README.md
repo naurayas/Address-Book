@@ -4,7 +4,6 @@
 This project is a command-line based Address Book application written in C.
 It allows users to manage contacts with features like create, search, edit, delete, and persistent storage.
 
----
 
 ## Features
 - Add new contacts with proper input validation
@@ -15,16 +14,12 @@ It allows users to manage contacts with features like create, search, edit, dele
 - Display all stored contacts
 - Persistent storage using `contacts.csv`
 
----
-
 ## Concepts Demonstrated
 - Structures and arrays
 - Modular programming in C
 - File handling (CSV read/write)
 - Input validation and error handling
 - String manipulation
-
----
 
 ## Project Structure
 ```bash
@@ -39,17 +34,12 @@ It allows users to manage contacts with features like create, search, edit, dele
 ├── validations.c
 └── validations.h
 ```
----
 
 ## Build Instructions
 ### Using Makefile
 ```bash
 make
 ./addressbook
-```
-### Clean build files
-```bash
-make clean
 ```
 ### Manual Compilation
 ```bash
