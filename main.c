@@ -2,10 +2,6 @@
    Start Date   : 15/10/2025
    End Date     : 20/10/2025
    Project Name : Address Book
-   Description  : This project is a simple address book management system where 
-                  the user can create, search, edit or delete contact details such as 
-                  name, phone number and Email Id. The contacts are stored in a csv file
-                  so that the data remains available even after terminating the program.
 */
 
 
